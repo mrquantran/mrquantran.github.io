@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Quan Tran Hong
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Quan
+last_name: Tran Hong
 
 # Status emoji
 status:
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: AI Research
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -40,7 +40,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/quan2381/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
