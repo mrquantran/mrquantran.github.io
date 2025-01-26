@@ -4,6 +4,18 @@ set -euo pipefail
 echo "Entry point script running"
 
 CONFIG_FILE=_config.yml
+DEFAULT_PORT=4000
+ALTERNATE_PORT=4001
+
+# Function to check if port is in use
+check_port() {
+    local port=$1
+    if lsof -i :$port > /dev/null 2>&1; then
+        echo "Port $port is in use, killing existing process..."
+        lsof -ti :$port | xargs kill -9
+        sleep 1
+    fi
+}
 
 # Function to manage Gemfile.lock
 manage_gemfile_lock() {
@@ -14,24 +26,20 @@ manage_gemfile_lock() {
             git restore Gemfile.lock 2>/dev/null || true
         else
             echo "Gemfile.lock is not tracked by git, removing it"
-            rm Gemfile.lock
+            rm -f Gemfile.lock
         fi
     fi
 }
 
-start_jekyll() {
-    manage_gemfile_lock
-    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
-}
+# Check and kill processes on both potential ports
+check_port $DEFAULT_PORT
+check_port $ALTERNATE_PORT
 
-start_jekyll
+# Rest of your script...
+manage_gemfile_lock
 
-while true; do
-    inotifywait -q -e modify,move,create,delete $CONFIG_FILE
-    if [ $? -eq 0 ]; then
-        echo "Change detected to $CONFIG_FILE, restarting Jekyll"
-        jekyll_pid=$(pgrep -f jekyll)
-        kill -KILL $jekyll_pid
-        start_jekyll
-    fi
-done
+# Start Jekyll with fallback port
+if ! bundle exec jekyll serve --port $DEFAULT_PORT --livereload; then
+    echo "Trying alternate port..."
+    bundle exec jekyll serve --port $ALTERNATE_PORT --livereload
+fi
