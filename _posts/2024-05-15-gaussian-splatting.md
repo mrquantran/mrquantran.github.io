@@ -2,7 +2,7 @@
 layout: post
 title: 3D Gaussian Splatting
 date: 2024-08-15
-description:
+description: 3D Gaussian splatting is a technique used in the field of real-time radiance field rendering.
 tags: gaussian-splatting
 categories: paper-notes
 thumbnail: assets/img/paper-notes/gaussian_splatting/ejemplo_gaussian_splatting.png
