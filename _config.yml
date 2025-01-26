@@ -88,9 +88,9 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Quan Tran Hong # blog_name will be displayed in your blog page
-blog_description: a place for thoughts and ideas in academics.
+blog_description: a space for my thoughts and ideas.
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: true # produce an index for related posts
 
 # Pagination
 pagination:

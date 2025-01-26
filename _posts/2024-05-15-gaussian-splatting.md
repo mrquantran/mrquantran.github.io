@@ -6,6 +6,7 @@ description: 3D Gaussian splatting is a technique used in the field of real-time
 tags: gaussian-splatting
 categories: paper-notes
 thumbnail: assets/img/paper-notes/gaussian_splatting/ejemplo_gaussian_splatting.png
+disqus_comments: true
 ---
 
 The paper begins by highlighting the recent revolution in novel-view synthesis using `Neural Radiance Field` methods, which renders 3D scenes from various viewpoints, given multiple images and their corresponding camera pose values
