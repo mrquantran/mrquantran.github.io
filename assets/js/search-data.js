@@ -41,7 +41,7 @@ ninja.data = [{
       
         title: "Simple 3D Gaussian Splats from Unposed Images",
       
-      description: "",
+      description: "NoPoSplat introduces a feed-forward network that directly predicts 3D Gaussian parameters within a canonical space from sparse, unposed multi-view images.",
       section: "Posts",
       handler: () => {
         
@@ -52,7 +52,7 @@ ninja.data = [{
       
         title: "3D Gaussian Splatting",
       
-      description: "",
+      description: "3D Gaussian splatting is a technique used in the field of real-time radiance field rendering.",
       section: "Posts",
       handler: () => {
         
