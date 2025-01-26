@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-3d-gaussian-splatting",
+        },{id: "post-simple-3d-gaussian-splats-from-unposed-images",
+      
+        title: "Simple 3D Gaussian Splats from Unposed Images",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/no-pose-no-problem/";
+        
+      },
+    },{id: "post-3d-gaussian-splatting",
       
         title: "3D Gaussian Splatting",
       
