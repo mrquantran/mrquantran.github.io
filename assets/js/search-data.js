@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-graduated-with-a-bachelor-s-degree-in-computer-and-information-sciences-from-auckland-university-of-technology",
+        },{id: "post-3d-gaussian-splatting",
+      
+        title: "3D Gaussian Splatting",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/gaussian-splatting/";
+        
+      },
+    },{id: "news-graduated-with-a-bachelor-s-degree-in-computer-and-information-sciences-from-auckland-university-of-technology",
           title: 'Graduated with a Bachelor’s degree in Computer and Information Sciences from Auckland University...',
           description: "",
           section: "News",},{id: "news-began-master-s-degree-in-data-science-and-artificial-intelligence-sparkles-smile",
