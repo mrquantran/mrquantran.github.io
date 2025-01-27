@@ -1,1 +1,1 @@
-window.cronitor=window.cronitor||function(){(window.cronitor.q=window.cronitor.q||[]).push(arguments)},cronitor("config",{clientKey:"{{ site.cronitor_analytics }}"});
+window.cronitor=window.cronitor||function(){(window.cronitor.q=window.cronitor.q||[]).push(arguments)},cronitor("config",{clientKey:"3b82c1a4a5f6faff808f474824b731af"});
