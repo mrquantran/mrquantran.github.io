@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-simple-3d-gaussian-splats-from-unposed-images",
+        },{id: "post-an-introduction-to-whisper-architecture-with-subtitle-generator",
+      
+        title: "An Introduction to Whisper Architecture with Subtitle Generator",
+      
+      description: "Whisper is a multitask, multilingual model trained on 680,000 hours of diverse audio data. Its transformer-based architecture transcribes, translates, and identifies languages directly from raw audio—all in a single end-to-end pipeline.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/whisper-ai/";
+        
+      },
+    },{id: "post-simple-3d-gaussian-splats-from-unposed-images",
       
         title: "Simple 3D Gaussian Splats from Unposed Images",
       
