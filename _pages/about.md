@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 💡 My passion lies in `Machine Learning Perception`, where I’m captivated by **Computer Vision**, **3D Reconstruction**, **Deep Learning**, and **Generative Models**. I’m driven by the question: *How can cutting-edge technologies create meaningful, real-world impacts in life and engineering sciences?*
 
-🌟 When I’m not immersed in code or research, you’ll find me *running* 🏃‍♂️, *traveling* 🌍, *photography* 📸, or *enjoying quality time* with friends and family 👨‍👩‍👧‍👦.
+🌟 In my sparse time, you’ll find me *running* 🏃‍♂️, *traveling* 🌍, *photography* 📸, or *enjoying quality time* with friends and family 👨‍👩‍👧‍👦.
 
 🔍 If you’re an employer or professor looking for a driven, curious, and research-oriented candidate, I'd love to connect! I’m excited to discuss how we can collaborate on innovative projects or groundbreaking research.
 

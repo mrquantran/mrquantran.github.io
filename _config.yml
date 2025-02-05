@@ -267,7 +267,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["gaussian-splatting", "computer-vision"] # these tags will be displayed on the front page of your blog
-display_categories: ["paper-notes"] # these categories will be displayed on the front page of your blog
+display_categories: ["paper-notes", "simple-project"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
