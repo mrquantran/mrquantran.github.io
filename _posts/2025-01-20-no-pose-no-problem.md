@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distill
 title: Simple 3D Gaussian Splats from Unposed Images
 date: 2025-01-20
 description: NoPoSplat introduces a feed-forward network that directly predicts 3D Gaussian parameters within a canonical space from sparse, unposed multi-view images.
@@ -7,6 +7,7 @@ tags: gaussian-splatting
 categories: paper-notes
 thumbnail: assets/img/paper-notes/no_pose_no_problem/Screenshot_2025-01-22_at_21.20.30.png
 disqus_comments: true
+# featured: true
 ---
 
 - [NoPoSplat Project Page](https://noposplat.github.io/)
