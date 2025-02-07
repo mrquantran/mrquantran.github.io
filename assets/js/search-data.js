@@ -73,8 +73,8 @@ ninja.data = [{
     },{id: "news-graduated-with-a-bachelor-s-degree-in-computer-and-information-sciences-from-auckland-university-of-technology",
           title: 'Graduated with a Bachelor’s degree in Computer and Information Sciences from Auckland University...',
           description: "",
-          section: "News",},{id: "news-began-master-s-degree-in-data-science-and-artificial-intelligence-sparkles-smile",
-          title: 'Began Master’s Degree in Data Science and Artificial Intelligence :sparkles: :smile:',
+          section: "News",},{id: "news-began-master-s-degree-student-in-data-science-and-artificial-intelligence-at-opit-sparkles",
+          title: 'Began Master’s Degree Student in Data Science and Artificial Intelligence at OPIT :sparkles:...',
           description: "",
           section: "News",},{
         id: 'social-email',
