@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Began Master's Degree in Data Science and Artificial Intelligence :sparkles: :smile:
+Began Master's Degree Student in Data Science and Artificial Intelligence at [OPIT](https://www.opit.com/courses/master-in-responsible-artificial-intelligence/) :sparkles:
